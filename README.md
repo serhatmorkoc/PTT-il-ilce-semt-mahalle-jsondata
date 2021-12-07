@@ -9,7 +9,7 @@ Son güncel PTT verisi 16.11.2021
 ### İl (City)
 | Alan | Tip | Açıklama |
 | ------ | ------ | ------ |
-| _id | string | Şehir id|
+| id | string | Şehir id|
 | name | string | Şehir ismi |
 
 
@@ -17,7 +17,7 @@ Son güncel PTT verisi 16.11.2021
 ### İlçe (Town)
 | Alan | Tip | Açıklama |
 | ------ | ------ | ------ |
-| _id | string | İlçe id|
+| id | string | İlçe id|
 | name | string | İlçe ismi |
 | cityid | string | Şehir id |
 
@@ -26,7 +26,7 @@ Son güncel PTT verisi 16.11.2021
 ### Semt (District)
 | Alan | Tip | Açıklama |
 | ------ | ------ | ------ |
-| _id | string | Semt id|
+| id | string | Semt id|
 | name | string | Semt ismi |
 | cityid | string | İl id |
 | townid | string | İlçe id |
@@ -35,9 +35,9 @@ Son güncel PTT verisi 16.11.2021
 ### Mahalle (Neighborhood)
 | Alan | Tip | Açıklama |
 | ------ | ------ | ------ |
-| _id | string | Mahalle id|
+| id | string | Mahalle id|
 | name | string | Mahalle ismi |
 | cityid | string | İl id |
 | townid | string | İlçe id |
-| districtid | string | Semt ismi |
+| districtid | string | Semt id |
 
