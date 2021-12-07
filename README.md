@@ -2,10 +2,10 @@
 
 Son güncel PTT verisi 16.11.2021
 
-<a name="dataModel"></a>
+<a name="jsonDataModel"></a>
 ## Data Model
 
-<a name="dataModelCity"></a>
+<a name="jsonDataModelCity"></a>
 ### İl (City)
 | Alan | Tip | Açıklama |
 | ------ | ------ | ------ |
@@ -13,7 +13,7 @@ Son güncel PTT verisi 16.11.2021
 | name | string | Şehir ismi |
 
 
-<a name="dataModelTown"></a>
+<a name="jsonDataModelTown"></a>
 ### İlçe (Town)
 | Alan | Tip | Açıklama |
 | ------ | ------ | ------ |
@@ -22,7 +22,7 @@ Son güncel PTT verisi 16.11.2021
 | cityid | int | Şehir id |
 
 
-<a name="dataModelDistrict"></a>
+<a name="jsonDataModelDistrict"></a>
 ### Semt (District)
 | Alan | Tip | Açıklama |
 | ------ | ------ | ------ |
@@ -31,7 +31,7 @@ Son güncel PTT verisi 16.11.2021
 | cityid | int | İl id |
 | townid | int | İlçe id |
 
-<a name="dataModelNeighborhood"></a>
+<a name="jsonDataModelNeighborhood"></a>
 ### Mahalle (Neighborhood)
 | Alan | Tip | Açıklama |
 | ------ | ------ | ------ |
